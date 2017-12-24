@@ -105,7 +105,7 @@ const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          //
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1510d13336228debfee9c918ce505efe225d8c94d045fa115";
 
 //TODO Add here your network seed nodes
-const std::initializer_list<const char*> SEED_NODES = { { 0XA1, 0XA0, 0X1A, 0X0A, 0XA1, 0XA1, 0X1A, 0xA1, 0x1A, 0xA1, 0x1A, 0xA1, 0x0A, 0xA1, 0x0A, 0xA0, 0x1A, 0xA0, 0x1A, 0xA0, 0x1A, 0xA1, 0x1A, 0XA1, 0X0A, 0XA1 } };
+const std::initializer_list<const char*> SEED_NODES = { "45.56.113.232:17236" 
   //"your_seed_ip1.com:8080",
   //"your_seed_ip2.com:8080",
 };
